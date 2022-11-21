@@ -1,0 +1,36 @@
+{
+  "name": "quasar-app-extension-tailwindcss-3",
+  "version": "3.2.24",
+  "description": "Integration of TailwindCSS into Quasar Framework",
+  "author": "Ahmed Shehab <ahbox@outlook.com>",
+  "license": "MIT",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:risha700/quasar-app-extension-tailwindcss-3.git"
+  },
+  "keywords": [
+    "quasar",
+    "quasar framework",
+    "extension",
+    "tailwind",
+    "tailwindcss",
+    "app extension",
+  ],
+  "bugs": "https://github.com/risha700/quasar-app-extension-tailwindcss-3/issues",
+  "homepage": "",
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.6.0",
+    "yarn": ">= 1.6.0"
+  },
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^5.0.0",
+    "autoprefixer": "^10.4.13",
+    "inquirer": "^7.0.0",
+    "tailwindcss": "^3.2.4"
+  }
+}
