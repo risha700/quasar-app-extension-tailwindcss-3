@@ -1,12 +1,13 @@
 module.exports = {
-    purge: [],
-    darkMode: false, // or 'media' or 'class'
+    content: ['./src/**/*.{js,jsx,ts,tsx,vue,html}'],
     theme: {
         extend: {}
     },
     <% if (prompts.prefix) { %>
     prefix:  '<%= prompts.prefix %>',
     <% } %>
-    variants: {},
-    plugins: []
+    plugins: [],
+    corePlugins: {
+        preflight: false
+    }
 }
