@@ -5,14 +5,11 @@ _This extension makes it easy to integrate TailwindCSS (https://tailwindcss.com/
 
 
 # Install
-This extension now uses `TailwindCSS v2`.
+This extension now uses `TailwindCSS v3.2.24`.
 
 ```bash
-quasar ext add tailwindcss
+quasar ext add tailwindcss-3
 ```
-
-> We currently use `tailwindcss@^2.0.1-compat`.
-> While TailwindCSS v2 requires `postcss@^8.1.0`,  Quasar still uses v7. We therefore make use of their compatibility version that has the same features as the regular v2, but uses PostCSS v7 instead. As soon as Quasar ships with PostCSS 8, we will switch over to regular TailwindCSS v2.
 
 
 There have been [reports](https://github.com/matzeso/quasar-app-extension-tailwindcss/issues/7) that some part of TailwindCSS v2 breaks with current Quasar rules. 
