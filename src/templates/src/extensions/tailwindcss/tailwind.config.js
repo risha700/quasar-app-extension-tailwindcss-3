@@ -7,6 +7,7 @@ module.exports = {
     prefix:  '<%= prompts.prefix %>',
     <% } %>
     plugins: [],
+    darkMode: 'class',
     corePlugins: {
         preflight: false
     }
