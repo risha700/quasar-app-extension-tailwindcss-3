@@ -11,7 +11,7 @@ This extension now uses `TailwindCSS v3.2.24`.
 this is a fork from https://github.com/matzeso/quasar-app-extension-tailwindcss Thanks to matzeso ;)
 
 ```bash
-quasar ext add tailwindcss-3
+quasar ext add tailwindcss-three
 ```
 
 ## in order to make dark variant works, you need to add a watcher to adjust html element as quasar uses body element for controlling darkMode
