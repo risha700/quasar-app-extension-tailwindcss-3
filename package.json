@@ -1,6 +1,6 @@
 {
-  "name": "quasar-app-extension-tailwindcss-three",
-  "version": "1.2.1",
+  "name": "quasar-app-extension-tailwindcss-3",
+  "version": "1.0.0",
   "description": "Integration of TailwindCSS into Quasar Framework",
   "author": "Ahmed Shehab <ahbox@outlook.com>",
   "license": "MIT",
