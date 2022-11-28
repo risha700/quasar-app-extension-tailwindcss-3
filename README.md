@@ -25,6 +25,17 @@ setup(){
 ```
 ### ==> Note: as of tailwind 3 dark mode is enabled by default as 'media', to make our settings work it will be predefiened as 'class' attribute on tailwind config.
 ###  ==> and if you are not using tailwind dark utils you can disable it by removing darkMode from config file.
+
+## ===> For nesting rules:
+if you need to use @apply inside .vue files styles 
+
+just add 
+```
+// .postcssrc.js or postcss.config.js depending on your setup.
+
+require('tailwindcss')('src/extensions/tailwindcss/tailwind.config.js')
+```
+
 # Credits
 Author: Ahmed Shehab <ahbox@outlook.com>
 ## License: MIT
