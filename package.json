@@ -1,6 +1,6 @@
 {
   "name": "quasar-app-extension-tailwindcss-3",
-  "version": "3.1.0",
+  "version": "3.1.1",
   "description": "Integration of TailwindCSS into Quasar Framework",
   "author": "Ahmed Shehab <ahbox@outlook.com>",
   "license": "MIT",
@@ -30,7 +30,9 @@
   "devDependencies": {
     "autoprefixer": "^10.4.14",
     "inquirer": "^9.2.10",
-    "postcss": "^8.4.27",
+    "postcss": "^8.4.27"
+  },
+  "dependencies": {
     "tailwindcss": "^3.3.3"
   }
 }
