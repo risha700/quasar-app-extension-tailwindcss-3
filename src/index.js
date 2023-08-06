@@ -12,7 +12,7 @@ function extendConf (conf) {
 
 module.exports = function (api) {
     api.compatibleWith('quasar', '^1.0.0 || ^2.0.0 || ^2.11.5')
-    api.compatibleWith('@quasar/app', '^1.0.0 || ^2.0.0 || ^3.0.0')
+    api.compatibleWith('@quasar/app', '^1.0.0 || ^2.0.0 || ^3.0.0|| ^3.9.2')
     api.compatibleWith('postcss', '^8.4.19') 
 
     api.chainWebpack((cfg, {isClient, isServer}, api) => {
