@@ -5,7 +5,7 @@ _This extension makes it easy to integrate TailwindCSS (https://tailwindcss.com/
 
 
 # Install
-This extension now uses `TailwindCSS v3.2.24`.
+This extension now uses `TailwindCSS v3.3.3`.
 
 
 
